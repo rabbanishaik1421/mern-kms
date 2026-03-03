@@ -1,0 +1,46 @@
+::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 300;
+}
+.main-login-screen {
+    min-height: 100vh;                /* Full screen height */
+    display: flex;
+    justify-content: center;          /* Horizontal center */
+    align-items: center;              /* Vertical center */
+    background: linear-gradient(135deg, #6a11cb, #6F1B8C);
+}
+.main-login-screen .card{
+    width: 40%;
+    margin: 50px auto;
+    padding: 0;
+    background: linear-gradient(135deg, #6a11cb, #6F1B8C);
+    border: none;
+    border-radius: 0;
+}
+.main-login-screen .card .card-header{
+    text-align: center;
+}
+.main-login-screen .card .card-header .card-title{
+    
+}
+.main-login-screen .card-body form .form-control{
+    border-radius: 0;
+    height: 45px;
+    font-size: 13px;
+}
+.main-login-screen .login-box{
+    width: 75%;
+    margin: 0 auto;
+}
+.main-login-screen h2{
+    font-weight: 500;
+}
+.login-box svg{
+    color: #888;
+}
+.login-box .text-warning{
+    font-size: 13px;
+    font-weight: 300;
+}

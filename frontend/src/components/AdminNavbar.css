@@ -1,0 +1,17 @@
+.UserInfo .title{
+    margin-right: 10px;
+}
+.navbar-nav .dropdown a:after{
+    border: 0;
+}
+.UserInfo, .notification{
+    /* padding: 2px; */
+    border-radius: 5px;
+}
+.UserInfo:hover, .notification:hover{
+    background-color: #eee;
+    background: #eee;
+}
+.profileimage{
+    border-radius: 50%;
+}
